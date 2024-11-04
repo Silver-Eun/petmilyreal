@@ -21,6 +21,7 @@ configurations {
 
 repositories {
     mavenCentral()
+    maven { url 'https://repo.spring.io/release' } // Spring 공식 리포지토리
 }
 
 dependencyManagement {
